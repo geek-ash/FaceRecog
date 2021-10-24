@@ -12,3 +12,7 @@ training_checkpoints/ckpt-1.data-00000-of-00001
 training_checkpoints/checkpoint
 siamesemodel.h5
 lfw.tgz
+*.jpg
+.ipynb_checkpoints/Face Recognition-checkpoint.ipynb
+.ipynb_checkpoints/Face Recognition-checkpoint.ipynb
+.ipynb_checkpoints/Face Recognition-checkpoint.ipynb
