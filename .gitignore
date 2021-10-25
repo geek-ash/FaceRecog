@@ -17,3 +17,6 @@ lfw.tgz
 .ipynb_checkpoints/Face Recognition-checkpoint.ipynb
 .ipynb_checkpoints/Face Recognition-checkpoint.ipynb
 .ipynb_checkpoints/Face Recognition-checkpoint.ipynb
+*.jpg
+.ipynb_checkpoints/Face Recognition-checkpoint.ipynb
+*.h5

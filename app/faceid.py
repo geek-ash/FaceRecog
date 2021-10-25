@@ -35,7 +35,7 @@ class CamApp(App):
         layout.add_widget(self.verification_label)
 
         # Load tensorflow/keras model
-        self.model = tf.keras.models.load_model('siamesemodel.h5', custom_objects={'L1Dist':L1Dist})
+        self.model = tf.keras.models.load_model('siamesemodelv2.h5', custom_objects={'L1Dist':L1Dist})
 
         # Setup video capture device
         self.capture = cv2.VideoCapture(0)
@@ -74,8 +74,8 @@ class CamApp(App):
     # Verification function to verify person
     def verify(self, *args):
         # Specify thresholds
-        detection_threshold = 0.99
-        verification_threshold = 0.8
+        detection_threshold = 0.5 ####################################################################################################################################
+        verification_threshold = 0.6 #################################################################################################################################
 
         # Capture input image from our webcam
         SAVE_PATH = os.path.join('application_data', 'input_image', 'input_image.jpg')
