@@ -75,7 +75,7 @@ class CamApp(App):
     def verify(self, *args):
         # Specify thresholds
         detection_threshold = 0.5 ####################################################################################################################################
-        verification_threshold = 0.6 #################################################################################################################################
+        verification_threshold = 0.5 #################################################################################################################################
 
         # Capture input image from our webcam
         SAVE_PATH = os.path.join('application_data', 'input_image', 'input_image.jpg')
